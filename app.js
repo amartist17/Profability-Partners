@@ -41,7 +41,7 @@ app.get("/testimonials", async (req, res) => {
   res.render("testimonials", { title: "Testimonials" });
 });
 app.get("/faqs", async (req, res) => {
-  res.render("faqs", { title: "FAQS" });
+  res.render("faqs", { title: "FAQs" });
 });
 app.all("*", (req, res) => {
   res.redirect("/");
